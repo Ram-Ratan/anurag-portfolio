@@ -146,7 +146,7 @@ const Section4 = () => {
               Initial{" "}
               <span className="font-black text-secondary">Discovery</span>
             </p>
-            <p className="font-normal text-2xl text-primary-500">
+            <p className="font-normal text-2xl text-primary-500 max-w-[1000px]">
               We identify your needs and objectives so we can accurately price &
               scope what is needed to drive the most value, setting our
               onboarding team for success.
@@ -178,7 +178,7 @@ const Section4 = () => {
               Day 01
             </p>
             <p className="font-semibold text-4xl text-primary">Onboarding</p>
-            <p className="font-normal text-2xl text-primary-500">
+            <p className="font-normal text-2xl text-primary-500 max-w-[1000px]">
               We identify your needs and objectives so we can accurately price &
               scope what is needed to drive the most value, setting our
               onboarding team for success.
@@ -213,7 +213,7 @@ const Section4 = () => {
               MUTUAL{" "}
               <span className="font-black text-secondary">UNDERSTANDING</span>
             </p>
-            <p className="font-normal text-2xl text-primary-500">
+            <p className="font-normal text-2xl text-primary-500 max-w-[1000px]">
               We identify your needs and objectives so we can accurately price &
               scope what is needed to drive the most value, setting our
               onboarding team for success.
@@ -248,7 +248,7 @@ const Section4 = () => {
               ONGOING{" "}
               <span className="font-black text-secondary">STRATEGY</span>
             </p>
-            <p className="font-normal text-2xl text-primary-500">
+            <p className="font-normal text-2xl text-primary-500 max-w-[1000px]">
               We identify your needs and objectives so we can accurately price &
               scope what is needed to drive the most value, setting our
               onboarding team for success.
