@@ -5,8 +5,8 @@ const Section1 = () => {
   return (
     <section className="flex bg-primary-0 w-full h-screen py-10 px-14 flex-col gap-10 bg-bg-image bg-cover">
         <div className="flex text-primary w-full justify-between">
-          <p>Anurag kanboina</p>
-          <p>+91 99309 02947</p>
+          <p className='font-brunoAceSC font-normal text-2xl'>Anurag kanboina</p>
+          <p className='font-brunoAceSC font-normal text-2xl'>+91 99309 02947</p>
         </div>
         <div className="flex justify-between h-full">
           <div className="flex flex-col justify-between text-primary w-1/2 h-full">

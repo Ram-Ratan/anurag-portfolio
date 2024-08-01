@@ -5,6 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        brunoAceSC: ['Bruno Ace SC', 'sans-serif'],
+        figtree: ['Figtree', 'sans-serif']
+      },
       colors: {
         primary: {
           DEFAULT: "#FFFFFF",
