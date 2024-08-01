@@ -4,7 +4,7 @@ import person1 from '../assets/Rectangle 6.png';
 
 const Section6 = () => {
   return (
-    <section className="flex bg-primary-0 w-full h-fit pt-10 pb-32 px-24 flex-col gap-16 justify-center items-center">
+    <section className="flex bg-primary-0 h-fit pt-10 pb-32 w-[90%] mx-auto max-w-[1280px] flex-col gap-16 justify-center items-center">
       <div className="w-[704px]">
         <p className="font-bold text-primary text-6xl text-center">
         What our <span className='text-secondary'>past customers</span> have to say

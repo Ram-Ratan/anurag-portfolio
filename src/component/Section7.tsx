@@ -2,7 +2,7 @@ import React from 'react'
 
 const Section7 = () => {
   return (
-    <section className="flex bg-primary-0 w-full h-fit py-24 px-28 flex-col gap-16 justify-center items-center">
+    <section className="flex bg-primary-0 h-fit py-24 w-[90%] mx-auto max-w-[1280px] flex-col gap-16 justify-center items-center">
         <div className='flex flex-col gap-4'>
             <div className='flex flex-col gap-[3px] text-start'>
                 <p className='font-light text-6xl text-primary'>Peace on Mind....</p>

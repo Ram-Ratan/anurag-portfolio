@@ -3,7 +3,7 @@ import anuragImage from "../assets/anurag.jfif";
 
 const Section1 = () => {
   return (
-    <section className="flex bg-primary-0 w-full h-screen py-10 px-14 flex-col gap-10 bg-bg-image bg-cover">
+    <section className="flex bg-primary-0 h-screen py-10 w-[90%] mx-auto max-w-[1280px] max-h-[700px] flex-col gap-10 bg-bg-image bg-cover">
         <div className="flex text-primary w-full justify-between">
           <p className='font-brunoAceSC font-normal text-2xl'>Anurag kanboina</p>
           <p className='font-brunoAceSC font-normal text-2xl'>+91 99309 02947</p>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Section8 = () => {
   return (
-    <section className="flex bg-primary-0 w-full h-fit py-24 px-28 flex-col gap-16 justify-center items-center">
+    <section className="flex bg-primary-0 h-fit py-24 w-[90%] mx-auto max-w-[1280px] flex-col gap-16 justify-center items-center">
       <div className="flex justify-between w-full px-8">
         <div className="flex flex-col gap-6 text-start">
           <p className="font-brunoAceSC font-normal text-2xl text-primary">
