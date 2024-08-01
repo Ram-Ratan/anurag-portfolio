@@ -3,7 +3,7 @@ import timeline1 from "../assets/timeline-1.png";
 
 const Section4 = () => {
   return (
-    <section className="flex bg-primary-0 w-full h-fit py-24 w-[90%] mx-auto max-w-[1280px] gap-6 justify-start items-center relative">
+    <section className="flex bg-primary-0 h-fit py-24 w-[90%] mx-auto max-w-[1280px] gap-6 justify-start items-center relative">
       <div className="flex flex-col">
         <div
           className="w-2.5 h-[323px] relative"
