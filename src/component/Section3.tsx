@@ -28,7 +28,7 @@ const Section3 = () => {
         <p className="font-semibold text-primary text-6xl text-center">
           Our <span className="text-secondary">PPC & SEM </span> Tactics
         </p>
-        <p className="font-light text-primary text-3xl text-center">
+        {/* <p className="font-light text-primary text-3xl text-center">
           My well{" "}
           <span className="font-extrabold text-primary">
             rounded perspective
@@ -36,7 +36,7 @@ const Section3 = () => {
           on business metrics to{" "}
           <span className="font-extrabold text-primary">achieves growth </span>
           beyond the Ads dashboard
-        </p>
+        </p> */}
       </div>
       <div className="w-1/6 h-0.5 bg-secondary"></div>
       <div className="flex flex-wrap justify-center gap-6">

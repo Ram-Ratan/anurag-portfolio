@@ -13,14 +13,13 @@ const Section1 = () => {
             <div>
             <div className="w-40 h-1 bg-secondary"></div>
             <p className="text-primary font-semibold text-7xl text-start">
-              PERFORMANCE{" "}
+              I'm ROI Driven{" "}
             </p>
             <p className="text-primary font-semibold text-7xl text-start">
-              MARKETER{" "}
+              Marketer{" "}
             </p>
             <p className="text-2xl font-normal text-start text-primary-500">
-              This is going to be the placeholder for the tagline which will be
-              mixture of keywords
+              <span className='font-semibold'>Transformative Growth</span> for 20+ brands with a razor sharp focus on scale and profitability
             </p>
             <div className="flex w-80 h-16 bg-secondary rounded-full py-4 px-8 font-semibold text-3xl justify-center items-center mt-10">
               Get in touch
@@ -33,7 +32,7 @@ const Section1 = () => {
                 </div>
                 <div>
                 <p className='text-secondary text-start font-bold text-4xl'>25+</p>
-                <p className='text-primary font-semibold text-2xl'>Satisfied Client</p>
+                <p className='text-primary font-semibold text-2xl'>Satisfied Clients</p>
                 </div>
             </div>
           </div>

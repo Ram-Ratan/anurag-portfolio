@@ -122,9 +122,13 @@ const Section4 = () => {
           </div>
         </div>
       </div>
-      <div className="w-full h-full place-items-start pl-6 absolute top-[60px] left-40" style={{
-        width: 'calc(100vw - 300px)'
-      }}>
+      <div
+        className="h-full place-items-start pl-6 absolute top-[60px] left-40"
+        style={{
+          width: "calc(100vw - 300px)",
+          maxWidth: "980px"
+        }}
+      >
         <div className="flex flex-col gap-2.5 h-[323px] w-[531px]">
           <p className="font-semibold text-6xl text-primary text-start">
             Peak into the{" "}
@@ -179,9 +183,9 @@ const Section4 = () => {
             </p>
             <p className="font-semibold text-4xl text-primary">Onboarding</p>
             <p className="font-normal text-2xl text-primary-500 max-w-[1000px]">
-              We identify your needs and objectives so we can accurately price &
-              scope what is needed to drive the most value, setting our
-              onboarding team for success.
+              We will begin by introducing teams on both sides and explaining
+              the onboarding process. Details about the goals, timeline, and
+              deliverables, and address any initial questions or concerns.
             </p>
           </div>
           <div
@@ -210,13 +214,12 @@ const Section4 = () => {
               3-5 days from contract ( Week 1 )
             </p>
             <p className="font-semibold text-4xl text-primary">
-              MUTUAL{" "}
-              <span className="font-black text-secondary">UNDERSTANDING</span>
+              PLAN OF <span className="font-black text-secondary">ACTION</span>
             </p>
             <p className="font-normal text-2xl text-primary-500 max-w-[1000px]">
-              We identify your needs and objectives so we can accurately price &
-              scope what is needed to drive the most value, setting our
-              onboarding team for success.
+              We will create a targeted plan-of-action by doing intensive market
+              research and identifying key metrics and audiences which will
+              ensure success.
             </p>
           </div>
           <div
@@ -242,7 +245,7 @@ const Section4 = () => {
                   "linear-gradient(115.97deg, rgba(255, 255, 255, 0) -12.71%, rgba(255, 255, 255, 0.1) 112.15%)",
               }}
             >
-              Near Day 45 ; 90 Days cycle
+              {"Every Month (30 day cycle)"}
             </p>
             <p className="font-semibold text-4xl text-primary">
               ONGOING{" "}
