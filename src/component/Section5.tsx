@@ -1,25 +1,110 @@
-import React from "react";
-import googleIcon from '../assets/google_icon.png';
+import React, { useState } from "react";
+import googleIcon from "../assets/google_icon.png";
+import icon1 from "../assets/icon-1.png"
+import icon2 from "../assets/icon-2.png"
+import icon3 from "../assets/icon-3.png"
+import icon4 from "../assets/icon-4.png"
+import icon5 from "../assets/icon-5.png"
+import icon6 from "../assets/icon-6.png"
+import icon7 from "../assets/icon-7.png"
+import icon8 from "../assets/icon-8.png"
+import icon9 from "../assets/icon-9.png"
+import icon10 from "../assets/icon-10.png"
+import icon11 from "../assets/icon-11.png"
+import icon12 from "../assets/icon-12.png"
+import icon13 from "../assets/icon-13.png"
 
-const companyArray: string[] = [
-  "Google Ads",
-  "Bing Ads",
-  "Youtube Ads",
-  "Shopping Ads",
-  "Display Ads",
-  "Keyword Research",
-  "Campaign Management",
-  "Retargeting Campaigns",
-  "Ads & Copy Optimization",
-  "Bid Strategy",
-  "Lead Generation",
-  "Competitor Analysis",
-  "Rapid Experimentation",
-  "PPC reporting",
-  "Meta Ads",
+
+const companyArray: any[] = [
+  {
+    name: "Evelta",
+    logoUrl: icon13, //toDo:: change this
+    "Revenue Generated": "3 Cr+",
+    "CAC Reduced": "35%",
+    "B2B Orders": "300+",
+  },
+  {
+    name: "Shoonya",
+    logoUrl: icon8,
+    "Demat Accounts Opened": "2 L+",
+    "CAC Reduced": "80%",
+    "Prospects Reached": "55M+",
+  },
+  {
+    name: "Cubelelo",
+    logoUrl: icon11,
+    "Revenue Generated": "3.5 Cr+",
+    "CAC Reduced": "30%",
+    "AOV Increased": "30%",
+  },
+  {
+    name: "Northeastern University",
+    logoUrl: icon12,
+    "Leads Increased": "44%",
+    "CAC Reduced": "28%",
+    "MQLs Generated": "4400+",
+  },
+  {
+    name: "Learnyst ",
+    logoUrl: icon3,
+    "Revenue Generated": "1.5 Cr",
+    "CAC Reduced": "35%",
+    "SQLs Generated": "1000+",
+  },
+  // {
+  //   name: "Artwork Flo",
+  //   logoUrl: icon8,  // toDo:: Change this
+  //   "Qualified Enterprise Leads": "600+",
+  //   "MQLs Generated": "7000+",
+  //   "SQLs Generated": "2000+",
+  // },
+  {
+    name: "Tetr College of Business By Master's Union",
+    logoUrl: icon6,
+    "Qualified Leads": "500+",
+    "MQLs Generated": "20000+",
+    "SQLs Generated": "4000+",
+  },
+  {
+    name: "Primebook  (Shark tank)",
+    logoUrl: icon2,
+    "Revenue Generated": "3Cr+",
+    ROAS: "10X",
+    "CAC Reduction": "25%",
+  },
+  {
+    name: "Millet Amma (Shark tank)",
+    logoUrl: icon1,
+    "Revenue Generated": "50L+",
+    ROAS: "5X",
+    "Customer Returning Rate": "30%",
+  },
+  {
+    name: "Fixhealth",
+    logoUrl: icon4,
+    "Appointments Booked": "2000+",
+    "CAC Reduced": "30%",
+    "Treatment Started ": "100+",
+  },
+  {
+    name: "TranZact",
+    logoUrl: icon5,
+    "Qualfied Leads Generated": "2000+",
+    "CAC Reduced": "20%",
+    "Customers Acquired": "200+",
+  },
+  {
+    name: "Indian Sweet Master",
+    logoUrl: icon10,
+    "Walk-ins Achieved": "40000+",
+    "Revenue generated": "$10M+",
+    "Increase Online Order Sales": "45%",
+  },
 ];
 
 const Section5 = () => {
+  const [currentCompany, setCurrentCompany] = useState<any>(companyArray[0]);
+
   return (
     <section className="flex bg-primary-0 h-fit pt-10 pb-32 w-[90%] mx-auto max-w-[1280px] flex-col gap-16 justify-center items-center">
       <div className="w-3/4">
@@ -28,58 +113,48 @@ const Section5 = () => {
         </p>
       </div>
       <div className="flex w-full justify-center gap-8">
-        <div
-          className="flex flex-grow items-center justify-center w-full h-44 px-8 py-12 rounded-br-[42px] border-[1.5px] border-[#2E2E2E]"
-          style={{
-            background:
-              "linear-gradient(115.97deg, rgba(255, 255, 255, 0) -12.71%, rgba(255, 255, 255, 0.1) 112.15%)",
-          }}
-        >
-          <div className="flex flex-col gap-2">
-            <p className="text-secondary text-center font-bold text-4xl">
-              50.5%
-            </p>
-            <p className="text-primary font-semibold text-2xl">Metric 1</p>
-          </div>
-        </div>
-        <div
-          className="flex flex-grow items-center justify-center w-full h-44 px-8 py-12 rounded-br-[42px] border-[1.5px] border-[#2E2E2E]"
-          style={{
-            background:
-              "linear-gradient(115.97deg, rgba(255, 255, 255, 0) -12.71%, rgba(255, 255, 255, 0.1) 112.15%)",
-          }}
-        >
-          <div className="flex flex-col gap-2">
-            <p className="text-secondary text-center font-bold text-4xl">
-              50.5%
-            </p>
-            <p className="text-primary font-semibold text-2xl">Metric 1</p>
-          </div>
-        </div>
-        <div
-          className="flex flex-grow items-center justify-center w-full h-44 px-8 py-12 rounded-br-[42px] border-[1.5px] border-[#2E2E2E]"
-          style={{
-            background:
-              "linear-gradient(115.97deg, rgba(255, 255, 255, 0) -12.71%, rgba(255, 255, 255, 0.1) 112.15%)",
-          }}
-        >
-          <div className="flex flex-col gap-2">
-            <p className="text-secondary text-center font-bold text-4xl">
-              50.5%
-            </p>
-            <p className="text-primary font-semibold text-2xl">Metric 1</p>
-          </div>
-        </div>
+        {Object.keys(currentCompany)
+          ?.filter((key) => key !== "name" && key !== "logoUrl")
+          ?.slice(0, 3)
+          ?.map((key) => {
+            return (
+              <div
+                className="flex flex-grow items-center justify-center w-full h-44 px-8 py-12 rounded-br-[42px] border-[1.5px] border-[#2E2E2E]"
+                style={{
+                  background:
+                    "linear-gradient(115.97deg, rgba(255, 255, 255, 0) -12.71%, rgba(255, 255, 255, 0.1) 112.15%)",
+                }}
+              >
+                <div className="flex flex-col gap-2">
+                  <p className="text-secondary text-center font-bold text-4xl">
+                    {currentCompany?.[key]}
+                  </p>
+                  <p className="text-primary font-semibold text-2xl">
+                    {key}
+                  </p>
+                </div>
+              </div>
+            );
+          })}
       </div>
-      <div className="flex flex-wrap justify-center gap-6 w-[1164px] space-y-2">
+      <div className="flex flex-wrap justify-center gap-10 w-[1164px] space-y-2">
         {companyArray?.map((company, ind) => {
           return (
             <div
               key={ind}
               className="flex items-center justify-center gap-1 cursor-pointer"
+              onMouseOver={() => {
+                setCurrentCompany(company);
+              }}
             >
-                <img src={googleIcon} alt="google" className="w-11 h-11"/>
-                <p className="text-primary font-semibold text-3xl">{company}</p>
+              <img
+                src={company.logoUrl.length > 0 ? company.logoUrl : googleIcon}
+                alt="google"
+                className=""
+              />
+              {/* <p className="text-primary font-semibold text-3xl">
+                {company?.name}
+              </p> */}
             </div>
           );
         })}
