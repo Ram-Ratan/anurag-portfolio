@@ -1,56 +1,69 @@
-import React from 'react'
-import anuragImage from "../assets/anurag.jfif";
-
+import React from "react";
+import iceBerg from "../assets/iceberg.mp4";
+import Service from "./servicesItem/Service";
+import './styles.css';
 const Section2 = () => {
   return (
-    <section className="flex bg-primary-0 w-full h-screen py-10 px-14 flex-col gap-10 bg-bg-image-1 bg-cover">
-        <div className="flex text-primary w-full justify-between">
-          <p>Anurag kanboina</p>
-          <p>+91 99309 02947</p>
+    <section className="flex bg-primary-0 h-fit py-28 w-[90%] mx-auto max-w-[1280px] bg-bg-image-1 bg-cover items-center justify-center flex-col gap-10">
+      <div className="flex flex-col gap-4 text-center w-3/4">
+        <p className="font-bold text-6xl text-primary">
+          Tired of <span className="text-secondary">Agencies on D</span>
+        </p>
+        <p className="font-light text-3xl text-primary-500">
+          My well{" "}
+          <span className="font-extrabold text-primary">
+            rounded perspective
+          </span>{" "}
+          on business metrics to{" "}
+          <span className="font-extrabold text-primary">achieves growth</span>{" "}
+          beyond the Ads dashboard
+        </p>
+      </div>
+      <div className="relative w-full">
+        <video autoPlay muted className="w-full">
+          <source src={iceBerg} type="video/mp4" />
+        </video>
+        <div className="absolute top-12 left-1/3 animate-slide-in-from-left-1.5">
+          <Service variant="primary" text="Avg CPC"/>
         </div>
-        <div className="flex justify-between h-full">
-          <div className="flex flex-col justify-between text-primary w-1/2 h-full">
-            <div>
-            <div className="w-40 h-1 bg-secondary"></div>
-            <p className="text-primary font-semibold text-7xl text-start">
-              PERFORMANCE{" "}
-            </p>
-            <p className="text-primary font-semibold text-7xl text-start">
-              MARKETER{" "}
-            </p>
-            <p className="text-2xl font-normal text-start text-primary-500">
-              This is going to be the placeholder for the tagline which will be
-              mixture of keywords
-            </p>
-            <div className="flex w-80 h-16 bg-secondary rounded-full py-4 px-8 font-semibold text-3xl justify-center items-center mt-10">
-              Get in touch
-            </div>
-            </div>
-            <div className='flex items-end gap-8'>
-                <div>
-                  <p className='text-secondary text-start font-bold text-4xl'>30+</p>
-                  <p className='text-primary font-semibold text-2xl'>Completed Projects</p>
-                </div>
-                <div>
-                <p className='text-secondary text-start font-bold text-4xl'>25+</p>
-                <p className='text-primary font-semibold text-2xl'>Satisfied Client</p>
-                </div>
-            </div>
-          </div>
-          <div className="flex text-primary w-1/2 relative justify-end" style={{
-            maxHeight: "calc(100vh - 150px)"
-          }}>
-            <img
-              src={anuragImage}
-              alt="anurag"
-              className="w-[60%] h-[90%] rounded-br-[100px] relative z-10 mr-5 object-cover"
-              style={{ objectPosition: "top" }} 
-            />
-            <div className="w-[60%] h-[90%] rounded-br-[100px] absolute bg-secondary top-5"></div>
-          </div>
+        <div className="absolute top-24 left-1/3 animate-slide-in-from-left-2">
+          <Service variant="primary" text="CPL"/>
         </div>
-      </section>
-  )
-}
+        <div className="absolute top-36 left-1/3 animate-slide-in-from-left-3.5">
+          <Service variant="primary" text="ROAS"/>
+        </div>
+        <div className="absolute top-48 left-1/3 animate-slide-in-from-left-6">
+          <Service variant="primary" text="CTR"/>
+        </div>
 
-export default Section2
+
+
+        <div className="absolute top-[276px] left-1/3 animate-slide-in-from-left-8">
+          <Service text="Content" variant="secondary"/>
+        </div>
+        <div className="absolute top-[324px] left-1/3 animate-slide-in-from-left-9">
+          <Service text="New Profit" variant="secondary"/>
+        </div>
+        <div className="absolute top-[372px] left-1/3 animate-slide-in-from-left-10">
+          <Service text="AOV" variant="secondary"/>
+        </div>
+        <div className="absolute top-[420px] left-1/3 animate-slide-in-from-left-11">
+          <Service text="CRO" variant="secondary"/>
+        </div>
+        <div className="absolute top-[468px] left-1/3 animate-slide-in-from-left-12">
+          <Service text="LTV" variant="secondary"/>
+        </div>
+        <div className="absolute top-[516px] left-1/3 animate-slide-in-from-left-13">
+          <Service text="COGS" variant="secondary"/>
+        </div>
+        <div className="absolute top-[564px] left-1/3 animate-slide-in-from-left-14">
+          <Service text="Cohort Analysis" variant="secondary"/>
+        </div>
+        
+        
+      </div>
+    </section>
+  );
+};
+
+export default Section2;

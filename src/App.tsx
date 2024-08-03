@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App bg-primary-0">
       <Section1 />
-      {/* <Section2 />  */}
+      <Section2 /> 
       <Section3 />
       <SubSection3 />
       <Section4 />   

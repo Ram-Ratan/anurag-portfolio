@@ -13,57 +13,18 @@ import icon10 from "../assets/icon-10.png"
 import icon11 from "../assets/icon-11.png"
 import icon12 from "../assets/icon-12.png"
 import icon13 from "../assets/icon-13.png"
+import icon14 from "../assets/icon-14.png"
+import icon15 from "../assets/icon-15.png"
+
 
 
 const companyArray: any[] = [
   {
-    name: "Evelta",
-    logoUrl: icon13, //toDo:: change this
-    "Revenue Generated": "3 Cr+",
-    "CAC Reduced": "35%",
-    "B2B Orders": "300+",
-  },
-  {
-    name: "Shoonya",
-    logoUrl: icon8,
-    "Demat Accounts Opened": "2 L+",
-    "CAC Reduced": "80%",
-    "Prospects Reached": "55M+",
-  },
-  {
-    name: "Cubelelo",
-    logoUrl: icon11,
-    "Revenue Generated": "3.5 Cr+",
-    "CAC Reduced": "30%",
-    "AOV Increased": "30%",
-  },
-  {
-    name: "Northeastern University",
-    logoUrl: icon12,
-    "Leads Increased": "44%",
-    "CAC Reduced": "28%",
-    "MQLs Generated": "4400+",
-  },
-  {
-    name: "Learnyst ",
-    logoUrl: icon3,
-    "Revenue Generated": "1.5 Cr",
-    "CAC Reduced": "35%",
-    "SQLs Generated": "1000+",
-  },
-  // {
-  //   name: "Artwork Flo",
-  //   logoUrl: icon8,  // toDo:: Change this
-  //   "Qualified Enterprise Leads": "600+",
-  //   "MQLs Generated": "7000+",
-  //   "SQLs Generated": "2000+",
-  // },
-  {
-    name: "Tetr College of Business By Master's Union",
-    logoUrl: icon6,
-    "Qualified Leads": "500+",
-    "MQLs Generated": "20000+",
-    "SQLs Generated": "4000+",
+    name: "Millet Amma (Shark tank)",
+    logoUrl: icon1,
+    "Revenue Generated": "50L+",
+    ROAS: "5X",
+    "Customer Returning Rate": "30%",
   },
   {
     name: "Primebook  (Shark tank)",
@@ -73,11 +34,11 @@ const companyArray: any[] = [
     "CAC Reduction": "25%",
   },
   {
-    name: "Millet Amma (Shark tank)",
-    logoUrl: icon1,
-    "Revenue Generated": "50L+",
-    ROAS: "5X",
-    "Customer Returning Rate": "30%",
+    name: "Learnyst ",
+    logoUrl: icon3,
+    "Revenue Generated": "1.5 Cr",
+    "CAC Reduced": "35%",
+    "SQLs Generated": "1000+",
   },
   {
     name: "Fixhealth",
@@ -94,11 +55,60 @@ const companyArray: any[] = [
     "Customers Acquired": "200+",
   },
   {
+    name: "Tetr College of Business By Master's Union",
+    logoUrl: icon6,
+    "Qualified Leads": "500+",
+    "MQLs Generated": "20000+",
+    "SQLs Generated": "4000+",
+  },
+  {
+    name: "Shoonya",
+    logoUrl: icon8,
+    "Demat Accounts Opened": "2 L+",
+    "CAC Reduced": "80%",
+    "Prospects Reached": "55M+",
+  },
+  {
     name: "Indian Sweet Master",
     logoUrl: icon10,
     "Walk-ins Achieved": "40000+",
     "Revenue generated": "$10M+",
     "Increase Online Order Sales": "45%",
+  },
+  {
+    name: "Cubelelo",
+    logoUrl: icon11,
+    "Revenue Generated": "3.5 Cr+",
+    "CAC Reduced": "30%",
+    "AOV Increased": "30%",
+  },
+  {
+    name: "Northeastern University",
+    logoUrl: icon12,
+    "Leads Increased": "44%",
+    "CAC Reduced": "28%",
+    "MQLs Generated": "4400+",
+  },
+  {
+    name: "Mehfill Indian Cuisize",
+    logoUrl: icon13, 
+    "Walk-ins Achieved": "40000+",
+    "Revenue generated": "$3M+",
+    "Increase Online Order Sales": "55%",
+  },
+  {
+    name: "Evelta",
+    logoUrl: icon14, 
+    "Revenue Generated": "3 Cr+",
+    "CAC Reduced": "35%",
+    "B2B Orders": "300+",
+  },
+  {
+    name: "Artwork Flo",
+    logoUrl: icon15,  
+    "Qualified Enterprise Leads": "600+",
+    "MQLs Generated": "7000+",
+    "SQLs Generated": "2000+",
   },
 ];
 
@@ -150,7 +160,7 @@ const Section5 = () => {
               <img
                 src={company.logoUrl.length > 0 ? company.logoUrl : googleIcon}
                 alt="google"
-                className=""
+                className="w-40"
               />
               {/* <p className="text-primary font-semibold text-3xl">
                 {company?.name}
