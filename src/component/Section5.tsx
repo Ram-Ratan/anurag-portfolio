@@ -116,7 +116,7 @@ const Section5 = () => {
   const [currentCompany, setCurrentCompany] = useState<any>(companyArray[0]);
 
   return (
-    <section className="flex bg-primary-0 h-fit pt-10 pb-32 w-[90%] mx-auto max-w-[1280px] flex-col gap-16 justify-center items-center">
+    <section id="section5" className="flex bg-primary-0 h-fit pt-10 pb-32 w-[90%] mx-auto max-w-[1280px] flex-col gap-16 justify-center items-center">
       <div className="w-3/4">
         <p className="font-semibold text-primary text-6xl text-center">
           Brands <span className="text-secondary">I have worked </span> with

@@ -7,7 +7,7 @@ import person3 from "../assets/person-3.png"
 
 const Section6 = () => {
   return (
-    <section className="flex bg-primary-0 h-fit pt-10 pb-32 w-[90%] mx-auto max-w-[1280px] flex-col gap-16 justify-center items-center">
+    <section id="section6" className="flex bg-primary-0 h-fit pt-10 pb-32 w-[90%] mx-auto max-w-[1280px] flex-col gap-16 justify-center items-center">
       <div className="w-[704px]">
         <p className="font-bold text-primary text-6xl text-center">
           Don't Trust me? See it for yourself.

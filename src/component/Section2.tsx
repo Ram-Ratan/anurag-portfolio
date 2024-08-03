@@ -4,7 +4,7 @@ import Service from "./servicesItem/Service";
 import './styles.css';
 const Section2 = () => {
   return (
-    <section className="flex bg-primary-0 h-fit py-28 w-[90%] mx-auto max-w-[1280px] bg-bg-image-1 bg-cover items-center justify-center flex-col gap-10">
+    <section id="section2" className="flex bg-primary-0 h-fit py-28 w-[90%] mx-auto max-w-[1280px] bg-bg-image-1 bg-cover items-center justify-center flex-col gap-10">
       <div className="flex flex-col gap-4 text-center w-3/4">
         <p className="font-bold text-6xl text-primary">
           Tired of <span className="text-secondary">Agencies on D</span>
