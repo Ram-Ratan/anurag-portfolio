@@ -14,7 +14,7 @@ const Section1 = () => {
       <div className="flex flex-col gap-2 md:flex-row md:justify-between h-full">
         <div className="flex flex-col justify-between text-primary w-full md:w-1/2 h-full">
           <div>
-            <div className="w-40 h-1 bg-secondary"></div>
+            <div className="w-40 h-0.5 sm:h-1 bg-secondary"></div>
             <p className="text-primary font-semibold text-3xl sm:text-7xl text-start">
               I'm ROI Driven
             </p>
@@ -25,7 +25,7 @@ const Section1 = () => {
               <span className="font-semibold">Transformative Growth</span> for 20+ brands with a
               razor-sharp focus on scale and profitability
             </p>
-            <div className="flex w-full sm:w-80 h-16 bg-secondary rounded-full py-4 px-8 font-semibold text-lg sm:text-3xl justify-center items-center mt-10">
+            <div className="flex w-fit sm:w-80 h-fit sm:h-16 bg-secondary rounded-full py-2 sm:py-4 px-8 font-semibold text-sm sm:text-3xl justify-center items-center mt-10">
               Get in touch
             </div>
           </div>
@@ -41,7 +41,7 @@ const Section1 = () => {
           </div>
         </div>
         <div
-          className="flex text-primary w-full md:w-1/2 relative justify-center md:justify-end md: max-h-[412px]"
+          className="flex text-primary w-full md:w-1/2 relative justify-center md:justify-end md:max-h-[412px]"
           // style={{
           //   maxHeight: "calc(100vh - 150px)",
           // }}
@@ -52,7 +52,7 @@ const Section1 = () => {
             className="w-[80%] md:w-[60%] h-72 md:h-[90%] rounded-br-[100px] relative z-10 mr-5 object-cover"
             style={{ objectPosition: "top" }}
           />
-          <div className="w-[80%] md:w-[60%] h-72 md:h-[90%] rounded-br-[100px] absolute bg-secondary top-5"></div>
+          <div className="w-[80%] md:w-[60%] h-72 md:h-[90%] rounded-br-[100px] absolute bg-secondary top-2.5 md:top-5"></div>
         </div>
       </div>
     </section>
