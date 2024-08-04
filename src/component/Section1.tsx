@@ -16,10 +16,10 @@ const Section1 = () => {
           <div>
             <div className="w-40 h-0.5 sm:h-1 bg-secondary"></div>
             <p className="text-primary font-semibold text-3xl sm:text-7xl text-start">
-              I'm ROI Driven
+              I'm ROI DRIVEN
             </p>
             <p className="text-primary font-semibold text-3xl sm:text-7xl text-start">
-              Marketer
+              MARKETER
             </p>
             <p className="text-sm sm:text-2xl font-normal text-start text-primary-500">
               <span className="font-semibold">Transformative Growth</span> for 20+ brands with a
