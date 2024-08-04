@@ -8,8 +8,8 @@ const Section1 = () => {
       className="flex bg-primary-0 h-full md:h-screen py-5 sm:py-10 w-[90%] mx-auto max-w-[1280px] max-h-[700px] flex-col gap-4 md:gap-10 bg-bg-image bg-cover"
     >
       <div className="flex text-primary w-full justify-between">
-        <p className="font-brunoAceSC font-normal text-sm md:text-2xl text-start">Anurag Kanboina</p>
-        <p className="font-brunoAceSC font-normal text-sm md:text-2xl text-end">+91 99309 02947</p>
+        <p className="font-semibold text-sm md:text-2xl text-start">Anurag Kanboina</p>
+        <p className="font-semibold text-sm md:text-2xl text-end">+91 99309 02947</p>
       </div>
       <div className="flex flex-col gap-2 md:flex-row md:justify-between h-full">
         <div className="flex flex-col justify-between text-primary w-full md:w-1/2 h-full">
