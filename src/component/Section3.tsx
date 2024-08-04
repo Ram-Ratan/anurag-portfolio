@@ -59,7 +59,7 @@ const Section3 = () => {
         })}
       </div>
       <div className="w-full md:w-3/4 pt-12 pb-48 sm:pb-96">
-        <p className="font-black text-secondary text-4xl sm:text-6xl text-center">
+        <p className="font-black text-secondary text-2xl sm:text-6xl text-center">
           Tools <span className="font-light text-primary">which I use to </span>{" "}
           generate results
         </p>
