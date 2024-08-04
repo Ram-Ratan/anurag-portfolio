@@ -49,10 +49,10 @@ const Section1 = () => {
           <img
             src={anuragImage}
             alt="anurag"
-            className="w-[80%] md:w-[60%] h-72 md:h-[90%] rounded-br-[100px] relative z-10 mr-5 object-cover"
+            className={`w-[80%] md:w-[60%] h-72 md:h-[calc(100vh-150px)] md:max-h-[550px] rounded-br-[100px] relative z-10 mr-5 object-cover`}
             style={{ objectPosition: "top" }}
           />
-          <div className="w-[80%] md:w-[60%] h-72 md:h-[90%] rounded-br-[100px] absolute bg-secondary top-2.5 md:top-5"></div>
+          <div className="w-[80%] md:w-[60%] h-72 md:h-[calc(100vh-150px)] md:max-h-[550px] rounded-br-[100px] absolute bg-secondary top-2.5 md:top-5"></div>
         </div>
       </div>
     </section>
