@@ -116,7 +116,7 @@ const Section5 = () => {
   return (
     <section
       id="section5"
-      className="flex bg-primary-0 h-fit pt-10 pb-32 w-[90%] mx-auto max-w-[1280px] flex-col gap-6 md:gap-16 justify-center items-center"
+      className="flex bg-primary-0 h-fit pt-10 pb-10 md:pb-32 w-[90%] mx-auto max-w-[1280px] flex-col gap-6 md:gap-16 justify-center items-center"
     >
       <div className="w-full sm:w-3/4">
         <p className="font-semibold text-primary text-2xl md:text-6xl text-center">

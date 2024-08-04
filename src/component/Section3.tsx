@@ -25,7 +25,7 @@ const Section3 = () => {
   return (
     <section
       id="section3"
-      className="flex bg-primary-0 h-fit pt-32 w-[90%] mx-auto max-w-[1280px] flex-col gap-10 justify-center items-center"
+      className="flex bg-primary-0 h-fit pt-10 md:pt-32 w-[90%] mx-auto max-w-[1280px] flex-col gap-10 justify-center items-center"
     >
       <div className="flex flex-col w-full md:w-3/4 gap-4 px-4">
         <p className="font-semibold text-primary text-2xl md:text-6xl text-center">
@@ -58,7 +58,7 @@ const Section3 = () => {
           );
         })}
       </div>
-      <div className="w-full md:w-3/4 pt-12 pb-48 sm:pb-96">
+      <div className="w-full md:w-3/4 pt-12 pb-20 md:pb-48 sm:pb-96">
         <p className="font-black text-secondary text-2xl sm:text-6xl text-center">
           Tools <span className="font-light text-primary">which I use to </span>{" "}
           generate results

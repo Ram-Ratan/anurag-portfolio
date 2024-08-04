@@ -4,7 +4,7 @@ const Section8 = () => {
   return (
     <section
       id="section8"
-      className="flex bg-primary-0 h-fit py-24 w-[90%] mx-auto max-w-[1280px] flex-col gap-16 justify-center items-center"
+      className="flex bg-primary-0 h-fit py-10 md:py-24 w-[90%] mx-auto max-w-[1280px] flex-col gap-16 justify-center items-center"
     >
       <div className="flex flex-col md:flex-row md:justify-between w-full px-4 md:px-8">
         <div className="flex flex-col gap-3 md:gap-6 text-start mb-8 md:mb-0">

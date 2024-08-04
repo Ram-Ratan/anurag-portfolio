@@ -8,7 +8,7 @@ const Section6 = () => {
   return (
     <section
       id="section6"
-      className="flex bg-primary-0 h-fit pt-10 pb-32 w-[90%] mx-auto max-w-[1280px] flex-col gap-16 justify-center items-center"
+      className="flex bg-primary-0 h-fit pt-10 pb-10 md:pb-20 w-[90%] mx-auto max-w-[1280px] flex-col gap-16 justify-center items-center"
     >
       <div className="w-full md:w-[704px] px-4">
         <p className="font-bold text-primary text-2xl sm:text-6xl text-center">

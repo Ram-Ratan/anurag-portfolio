@@ -7,7 +7,7 @@ const Section2 = () => {
   return (
     <section
       id="section2"
-      className="flex bg-primary-0 py-28 w-[90%] mx-auto max-w-[1280px] bg-bg-image-1 bg-cover items-center justify-center flex-col gap-10"
+      className="flex bg-primary-0 py-10 md:py-28 w-[90%] mx-auto max-w-[1280px] bg-bg-image-1 bg-cover items-center justify-center flex-col gap-10"
     >
       <div className="flex flex-col gap-4 text-center w-full md:w-3/4 px-4">
         <p className="font-bold text-2xl md:text-6xl text-primary">

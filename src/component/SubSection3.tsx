@@ -21,7 +21,7 @@ const SubSection3 = () => {
   ];
 
   return (
-    <section className="flex bg-primary-0 h-fit pt-6 pb-60 w-full flex-col gap-10 justify-center items-center">
+    <section className="flex bg-primary-0 h-fit pt-0 pb-10 md:pt-6 md:pb-60 w-full flex-col gap-10 justify-center items-center">
       <div className="flex w-full h-full relative">
         <div className="relative w-full overflow-hidden h-8 sm:h-28 md:h-32 transform -rotate-6 bg-[#1D1F21]">
           <div className="flex h-full items-center absolute w-full animate-slide">
