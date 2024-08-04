@@ -5,7 +5,7 @@ const Section1 = () => {
   return (
     <section
       id="section1"
-      className="flex bg-primary-0 h-full md:h-screen py-10 w-[90%] mx-auto max-w-[1280px] max-h-[700px] flex-col gap-10 bg-bg-image bg-cover"
+      className="flex bg-primary-0 h-full md:h-screen py-5 sm:py-10 w-[90%] mx-auto max-w-[1280px] max-h-[700px] flex-col gap-4 md:gap-10 bg-bg-image bg-cover"
     >
       <div className="flex text-primary w-full justify-between">
         <p className="font-brunoAceSC font-normal text-sm md:text-2xl text-start">Anurag Kanboina</p>
@@ -14,7 +14,7 @@ const Section1 = () => {
       <div className="flex flex-col gap-2 md:flex-row md:justify-between h-full">
         <div className="flex flex-col justify-between text-primary w-full md:w-1/2 h-full">
           <div>
-            <div className="w-40 h-0.5 sm:h-1 bg-secondary"></div>
+            <div className="w-40 h-[1px] sm:h-1 bg-secondary"></div>
             <p className="text-primary font-semibold text-3xl sm:text-7xl text-start">
               I'm ROI DRIVEN
             </p>
