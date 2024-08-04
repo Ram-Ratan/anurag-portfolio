@@ -10,6 +10,9 @@ import Section8 from "./component/Section8";
 import Section4 from "./component/Section4";
 import SubSection3 from "./component/SubSection3";
 
+//toDo:: sub section 3 ke karan horizontal scroll aa raha hai
+
+
 function App() {
   return (
     <div className="App bg-primary-0">
