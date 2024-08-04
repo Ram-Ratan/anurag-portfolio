@@ -9,7 +9,7 @@
   
   .animate-slide {
     display: flex;
-    width: 400%; /* Extend the width to accommodate all items */
+    /* width: 400%;  */
     animation: slide 50s linear infinite; /* Increase time to slow down */
   }
 
