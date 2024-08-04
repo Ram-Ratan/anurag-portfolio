@@ -6,7 +6,7 @@ const Section4 = () => {
     <section id="section4"  className="flex bg-primary-0 h-fit py-24 w-[90%] mx-auto md:max-w-[1280px] gap-6 justify-start items-center relative">
       <div className="pl-4 flex flex-col">
         <div
-          className="w-1 sm:w-1.5 md:w-2.5 h-[323px] relative"
+          className="w-1 sm:w-1.5 md:w-2.5 h-[150px] md:h-[323px] relative"
           style={{
             background:
               "linear-gradient(to bottom, #602399 0%, #A03AFF 50%, #602399 100%)",
@@ -20,7 +20,7 @@ const Section4 = () => {
           ></div>
         </div>
         <div
-          className="w-1 sm:w-1.5 md:w-2.5 h-[753px] relative"
+          className="w-1 sm:w-1.5 md:w-2.5 h-[400px] md:h-[753px] relative"
           style={{
             background:
               "linear-gradient(to bottom, #602399 0%, #A03AFF 50%, #602399 100%)",
@@ -43,7 +43,7 @@ const Section4 = () => {
           </div>
         </div>
         <div
-          className="w-1 sm:w-1.5 md:w-2.5 h-[812px] relative"
+          className="w-1 sm:w-1.5 md:w-2.5 h-[400px] md:h-[812px] relative"
           style={{
             background:
               "linear-gradient(to bottom, #602399 0%, #A03AFF 50%, #602399 100%)",
@@ -56,7 +56,7 @@ const Section4 = () => {
             }}
           ></div>
           <div
-            className="flex w-6 sm:w-12  md:w-20 h-6 sm:h-12 md:h-20 rounded-full absolute -top-3 md:-top-10 -left-2.5 sm:-left-[18px] md:-left-[35px] justify-center font-extrabold text-sm sm:text-lg md:text-5xl items-center text-primary"
+            className="flex w-6 sm:w-12 md:w-20 h-6 sm:h-12 md:h-20 rounded-full absolute -top-3 md:-top-10 -left-2.5 sm:-left-[18px] md:-left-[35px] justify-center font-extrabold text-sm sm:text-lg md:text-5xl items-center text-primary"
             style={{
               background:
                 "linear-gradient(115.97deg, rgba(255, 255, 255, 0) -12.71%, rgba(255, 255, 255, 0.1) 112.15%)",
@@ -66,7 +66,7 @@ const Section4 = () => {
           </div>
         </div>
         <div
-          className="w-1 sm:w-1.5 md:w-2.5 h-[686px] relative"
+          className="w-1 sm:w-1.5 md:w-2.5 h-[400px] md:h-[686px] relative"
           style={{
             background:
               "linear-gradient(to bottom, #602399 0%, #A03AFF 50%, #602399 100%)",
@@ -89,7 +89,7 @@ const Section4 = () => {
           </div>
         </div>
         <div
-          className="w-1 sm:w-1.5 md:w-2.5 h-[561px] relative"
+          className="w-1 sm:w-1.5 md:w-2.5 h-[400px] md:h-[561px] relative"
           style={{
             background:
               "linear-gradient(180deg, #602399 0%, #A03AFF 47.88%, #090B0D 100%)",
@@ -119,13 +119,13 @@ const Section4 = () => {
           maxWidth: "980px"
         }}
       >
-        <div className="flex flex-col gap-2.5 h-[323px] w-full md:w-[531px]">
+        <div className="flex flex-col gap-2.5 h-[150px] md:h-[323px] w-full md:w-[531px]">
           <p className="font-semibold text-2xl md:text-6xl text-primary text-start">
             Peak into the{" "}
             <span className="font-extrabold text-secondary">Journey Ahead</span>
           </p>
         </div>
-        <div className="flex flex-col gap-3 md:gap-8 h-[753px] w-full">
+        <div className="flex flex-col gap-3 md:gap-8 h-[400px] md:h-[753px] w-full">
           <div className="flex flex-col gap-2.5 text-start">
             <p
               className="text-primary font-normal text-xs md:text-lg py-1 md:py-2.5 px-3 md:px-5 border-[1.5px] border-[#2E2E2E] rounded-[500px] w-fit"
@@ -160,7 +160,7 @@ const Section4 = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col gap-3 md:gap-8 h-[812px] w-full">
+        <div className="flex flex-col gap-3 md:gap-8 h-[400px] md:h-[812px] w-full">
           <div className="flex flex-col gap-2.5 text-start">
             <p
               className="text-primary font-normal text-xs md:text-lg py-1 md:py-2.5 px-3 md:px-5 border-[1.5px] border-[#2E2E2E] rounded-[500px] w-fit"
@@ -192,7 +192,7 @@ const Section4 = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col gap-3 md:gap-8 h-[686px] w-full">
+        <div className="flex flex-col gap-3 md:gap-8 h-[400px] md:h-[686px] w-full">
           <div className="flex flex-col gap-2.5 text-start">
             <p
               className="text-primary font-normal text-xs md:text-lg py-1 md:py-2.5 px-3 md:px-5 border-[1.5px] border-[#2E2E2E] rounded-[500px] w-fit"
@@ -226,7 +226,7 @@ const Section4 = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col gap-3 md:gap-8 h-[561px] w-full">
+        <div className="flex flex-col gap-3 md:gap-8 h-[400px] md:h-[561px] w-full">
           <div className="flex flex-col gap-2.5 text-start">
             <p
               className="text-primary font-normal text-xs md:text-lg py-1 md:py-2.5 px-3 md:px-5 border-[1.5px] border-[#2E2E2E] rounded-[500px] w-fit"
