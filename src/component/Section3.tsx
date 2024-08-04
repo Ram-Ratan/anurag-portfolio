@@ -17,40 +17,34 @@ const serviceArray: string[] = [
   "Rapid Experimentation",
   "PPC reporting",
   "Audience Research",
-  "PPC landing page oprimizations",
+  "PPC landing page optimizations",
   "Meta Ads",
 ];
 
 const Section3 = () => {
   return (
-    <section id="section3" className="flex bg-primary-0  h-fit pt-32 w-[90%] mx-auto max-w-[1280px] flex-col gap-10 justify-center items-center">
-      <div className="flex flex-col w-3/4 gap-4">
-        <p className="font-semibold text-primary text-6xl text-center">
+    <section
+      id="section3"
+      className="flex bg-primary-0 h-fit pt-32 w-[90%] mx-auto max-w-[1280px] flex-col gap-10 justify-center items-center"
+    >
+      <div className="flex flex-col w-full md:w-3/4 gap-4 px-4">
+        <p className="font-semibold text-primary text-2xl md:text-6xl text-center">
           Our <span className="text-secondary">PPC & SEM </span> Tactics
         </p>
-        {/* <p className="font-light text-primary text-3xl text-center">
-          My well{" "}
-          <span className="font-extrabold text-primary">
-            rounded perspective
-          </span>{" "}
-          on business metrics to{" "}
-          <span className="font-extrabold text-primary">achieves growth </span>
-          beyond the Ads dashboard
-        </p> */}
       </div>
-      <div className="w-1/6 h-0.5 bg-secondary"></div>
-      <div className="flex flex-wrap justify-center gap-6">
+      <div className="w-1/2 sm:w-1/6 h-0.5 bg-secondary"></div>
+      <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
         {serviceArray?.map((service, ind) => {
           return (
             <div
               key={ind}
-              className="flex items-center justify-center w-72 h-48 px-3 rounded-br-[42px] border-[1.5px] border-[#2E2E2E] relative"
+              className="flex items-center justify-center w-36 sm:w-72 h-16 sm:h-48 px-1 md:px-3 rounded-br-[30px] sm:rounded-br-[42px] border-[1.5px] border-[#2E2E2E] relative"
               style={{
                 background:
                   "linear-gradient(115.97deg, rgba(255, 255, 255, 0) -12.71%, rgba(255, 255, 255, 0.1) 112.15%)",
               }}
             >
-              <span className="text-primary font-semibold text-2xl">
+              <span className="text-primary font-semibold text-xs sm:text-2xl text-center">
                 {service}
               </span>
               <div
@@ -64,8 +58,8 @@ const Section3 = () => {
           );
         })}
       </div>
-      <div className="w-3/4 pt-12 pb-96">
-        <p className="font-black text-secondary text-6xl text-center">
+      <div className="w-full md:w-3/4 pt-12 pb-48 sm:pb-96">
+        <p className="font-black text-secondary text-4xl sm:text-6xl text-center">
           Tools <span className="font-light text-primary">which I use to </span>{" "}
           generate results
         </p>
