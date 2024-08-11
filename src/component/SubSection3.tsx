@@ -24,7 +24,7 @@ const SubSection3 = () => {
     <section className="flex bg-primary-0 h-fit pt-0 pb-10 md:pt-6 md:pb-60 w-full flex-col gap-10 justify-center items-center">
       <div className="flex w-full h-full relative">
         <div className="relative w-full overflow-hidden h-8 sm:h-28 md:h-32 transform -rotate-6 bg-[#1D1F21]">
-          <div className="flex h-full items-center absolute w-[4000px] md:w-[300%] animate-slide">
+          <div className="flex h-full items-center absolute w-[2000px] md:w-[300%] animate-slide">
             {toolsArray1.map((tool, i) => (
               <div key={i} className="text-primary text-xl sm:text-2xl font-black mx-2">
                 <img src={tool} alt="tool" className="h-6 sm:h-20 md:h-24" />
@@ -34,7 +34,7 @@ const SubSection3 = () => {
         </div>
         <div className="absolute w-full h-full">
           <div className="relative w-full overflow-hidden h-8 sm:h-28 md:h-32 transform rotate-[8.56deg] bg-secondary">
-            <div className="flex h-full items-center justify-center absolute w-[4000px] md:w-[300%] animate-slide">
+            <div className="flex h-full items-center justify-center absolute w-[2000px] md:w-[300%] animate-slide">
               {toolsArray2.map((tool, i) => (
                 <div key={i} className="mx-2">
                   <img src={tool} alt="tool" className="h-6 sm:h-20 md:h-24" />
