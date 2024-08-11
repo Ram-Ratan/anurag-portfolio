@@ -9,7 +9,7 @@ const Section2 = () => {
 
   useEffect(() => {
     if (videoRef.current) {
-      videoRef.current.playbackRate = 3; // Set playback speed to 2x
+      videoRef.current.playbackRate = 4; // Set playback speed to 2x
     }
   }, []);
 

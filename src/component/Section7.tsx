@@ -5,7 +5,7 @@ const Section7 = () => {
     <section id='section7' className="flex bg-secondary h-fit py-10 md:py-24 w-[90%] mx-auto max-w-[1280px] flex-col gap-16 justify-center items-center">
         <div className='flex flex-col gap-6'>
             <div className='flex flex-col gap-3 text-start'>
-                <p className='font-light text-2xl  md:text-6xl text-primary-0 text-center'>Peace of mind? It's on me</p>
+                <p className='font-light text-2xl  md:text-6xl text-primary-0 text-center'><span className='font-bold'>Peace of mind?</span> It's on me</p>
                 <p className='font-bold text-2xl md:text-6xl text-primary text-center'>The best guarantee in the world.</p>
             </div>
             <div className='flex flex-col gap-5 text-start'>
