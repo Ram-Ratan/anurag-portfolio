@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
 import anuragImage from "../assets/anurag.png";
+import { PopupModal } from "react-calendly";
 
 const Section1 = () => {
   const [projectCount, setProjectCount] = useState<number>(0);
   const [satisfiedClientCount, setSatisfiedClientCount] = useState<number>(0);
   const [titleText, setTitleText] = useState<string>("");
+  const [isOpen, setIsOpen] = useState<boolean>(false);
   const classes = `
   animate-fade-in-1 animate-fade-in-2 animate-fade-in-3 animate-fade-in-4
   animate-fade-in-5 animate-fade-in-6 animate-fade-in-7 animate-fade-in-8
@@ -80,9 +82,25 @@ const Section1 = () => {
               <span className="font-semibold">Transformative Growth</span> for
               20+ brands with a razor-sharp focus on scale and profitability
             </p>
-            <div className="flex w-fit cursor-pointer sm:w-80 h-fit sm:h-16 bg-secondary rounded-full py-2 sm:py-4 px-8 font-semibold text-sm sm:text-3xl justify-center items-center mt-10 hover:shadow-secondary hover:shadow-2xl">
+            <div
+              className="flex w-fit cursor-pointer sm:w-80 h-fit sm:h-16 bg-secondary rounded-full py-2 sm:py-4 px-8 font-semibold text-sm sm:text-3xl justify-center items-center mt-10 transition-transform duration-300 transform hover:scale-110 hover:shadow-secondary hover:shadow-2xl"
+              onClick={() => setIsOpen(true)}
+            >
               Get in touch
             </div>
+            <PopupModal
+              url="https://calendly.com/ramratan72908"
+              // pageSettings={this.props.pageSettings}
+              // utm={this.props.utm}
+              // prefill={this.props.prefill}
+              onModalClose={() => setIsOpen(false)}
+              open={isOpen}
+              /*
+               * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
+               * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
+               */
+              rootElement={document.getElementById("root") as HTMLElement}
+            />
           </div>
           <div className="flex items-end gap-4 sm:gap-8 mt-8 md:mt-0">
             <div>
