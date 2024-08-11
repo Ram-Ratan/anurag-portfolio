@@ -22,15 +22,24 @@ const serviceArray: string[] = [
 ];
 
 const Section3 = () => {
+  const [activeCard, setActiveCard] = useState<number | null>(null);
   const [bgPosition, setBgPosition] = useState({ x: 0, y: 0 });
 
-  const handleMouseMove = (e: React.MouseEvent, element: HTMLElement) => {
-    const rect = element.getBoundingClientRect();
+  const handleMouseMove = (e: React.MouseEvent, index: number) => {
+    if (activeCard !== index) {
+      setActiveCard(index);
+    }
+    const rect = (e.currentTarget as HTMLElement).getBoundingClientRect();
     const x = e.clientX - rect.left; // X coordinate relative to the element
     const y = e.clientY - rect.top;  // Y coordinate relative to the element
 
     setBgPosition({ x, y });
   };
+
+  const handleMouseLeave = () => {
+    setActiveCard(null);
+  };
+
   return (
     <section
       id="section3"
@@ -52,17 +61,20 @@ const Section3 = () => {
                 background:
                   "linear-gradient(115.97deg, rgba(255, 255, 255, 0) -12.71%, rgba(255, 255, 255, 0.1) 112.15%)",
               }}
-              onMouseMove={(e) => handleMouseMove(e, e.currentTarget)}
+              onMouseMove={(e) => handleMouseMove(e, ind)}
+              onMouseLeave={handleMouseLeave}
             >
               <span className="text-primary font-semibold text-xs sm:text-2xl text-center">
                 {service}
               </span>
-              <div
-                className="absolute inset-0 transition-opacity duration-300 opacity-0 hover:opacity-100"
-                style={{
-                  background: `radial-gradient(circle 160px at ${bgPosition.x}px ${bgPosition.y}px, rgba(160, 58, 255, 0.5), transparent 50%)`,
-                }}
-              ></div>
+              {activeCard === ind && (
+                <div
+                  className="absolute inset-0 transition-opacity duration-300 opacity-100"
+                  style={{
+                    background: `radial-gradient(circle 160px at ${bgPosition.x}px ${bgPosition.y}px, rgba(160, 58, 255, 0.5), transparent 50%)`,
+                  }}
+                ></div>
+              )}
             </div>
           );
         })}
