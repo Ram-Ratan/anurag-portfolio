@@ -16,14 +16,14 @@ const Section2 = () => {
     >
       <div className="flex flex-col gap-4 text-center w-full md:w-3/4 px-4">
         <p className="font-bold text-2xl md:text-6xl text-primary">
-          Tired of <span className="text-secondary">Agencies on D</span>
+          Tired of Agencies, <span className="text-secondary">Talking about ROAS while ROI Suffers?</span>
         </p>
         <p className="font-light text-sm md:text-3xl text-primary-500">
           My well{" "}
           <span className="font-extrabold text-primary">
             rounded perspective
           </span>{" "}
-          on business metrics to{" "}
+          on business metrics{" "}
           <span className="font-extrabold text-primary">achieve growth</span>{" "}
           beyond the Ads dashboard
         </p>

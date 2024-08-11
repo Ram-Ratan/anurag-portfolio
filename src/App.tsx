@@ -12,19 +12,24 @@ import SubSection3 from "./component/SubSection3";
 
 //toDo:: sub section 3 ke karan horizontal scroll aa raha hai
 
-
 function App() {
   return (
-    <div className="App bg-primary-0">
-      <Section1 />
-      <Section2 /> 
-      <Section3 />
-      <SubSection3 />
-      <Section4 />   
-      <Section5/>
-      <Section6 />
-      <Section7 />
-      <Section8 />
+    <div className="App">
+      <div className="bg-primary-0">
+        <Section1 />
+        <Section2 />
+        <Section3 />
+        <SubSection3 />
+        <Section4 />
+        <Section5 />
+        <Section6 />
+      </div>
+      <div className="bg-primary">
+        <Section7 />
+      </div>
+      <div className="bg-primary-0">
+        <Section8 />
+      </div>
     </div>
   );
 }
