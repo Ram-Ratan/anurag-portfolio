@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./styles.css";
 
 const serviceArray: string[] = [
@@ -22,6 +22,15 @@ const serviceArray: string[] = [
 ];
 
 const Section3 = () => {
+  const [bgPosition, setBgPosition] = useState({ x: 0, y: 0 });
+
+  const handleMouseMove = (e: React.MouseEvent, element: HTMLElement) => {
+    const rect = element.getBoundingClientRect();
+    const x = e.clientX - rect.left; // X coordinate relative to the element
+    const y = e.clientY - rect.top;  // Y coordinate relative to the element
+
+    setBgPosition({ x, y });
+  };
   return (
     <section
       id="section3"
@@ -43,6 +52,7 @@ const Section3 = () => {
                 background:
                   "linear-gradient(115.97deg, rgba(255, 255, 255, 0) -12.71%, rgba(255, 255, 255, 0.1) 112.15%)",
               }}
+              onMouseMove={(e) => handleMouseMove(e, e.currentTarget)}
             >
               <span className="text-primary font-semibold text-xs sm:text-2xl text-center">
                 {service}
@@ -50,8 +60,7 @@ const Section3 = () => {
               <div
                 className="absolute inset-0 transition-opacity duration-300 opacity-0 hover:opacity-100"
                 style={{
-                  background:
-                    "radial-gradient(circle 160px at 72px 72px, rgba(160, 58, 255, 0.5), transparent 50%)",
+                  background: `radial-gradient(circle 160px at ${bgPosition.x}px ${bgPosition.y}px, rgba(160, 58, 255, 0.5), transparent 50%)`,
                 }}
               ></div>
             </div>
