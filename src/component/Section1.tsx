@@ -62,7 +62,7 @@ const Section1 = () => {
         <div className="flex flex-col justify-between text-primary w-full md:w-1/2 h-full">
           <div>
             <div className="w-40 h-[1px] sm:h-1 bg-secondary"></div>
-            <p className="text-primary font-semibold text-3xl sm:text-7xl text-start">
+            <p className="text-primary font-semibold text-3xl sm:text-6xl text-start">
               <span className="inline-block">I'm</span>{" "}
               {titleText?.split("")?.map((char, i) => (
                 <span
@@ -73,7 +73,7 @@ const Section1 = () => {
                 </span>
               ))}
             </p>
-            <p className="text-primary font-semibold text-3xl sm:text-7xl text-start">
+            <p className="text-primary font-semibold text-3xl sm:text-6xl text-start">
               MARKETER
             </p>
             <p className="text-sm sm:text-2xl font-normal text-start text-primary-500">
