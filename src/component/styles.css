@@ -1,30 +1,63 @@
-@keyframes slide {
-    0% {
+/* Slide animation for brand logos */
+@-webkit-keyframes slide {
+  0% {
+      -webkit-transform: translateX(-50%);
       transform: translateX(-50%);
-    }
-    100% {
+  }
+  100% {
+      -webkit-transform: translateX(0%);
       transform: translateX(0%);
-    }
   }
-  
-  .animate-slide {
-    display: flex;
-    /* width: 400%;  */
-    animation: slide 30s linear infinite; /* Increase time to slow down */
-  }
+}
 
-  @keyframes slideInFromLeft {
-    0% {
+@keyframes slide {
+  0% {
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%);
+  }
+  100% {
+      -webkit-transform: translateX(0%);
+      transform: translateX(0%);
+  }
+}
+
+.animate-slide {
+  display: flex;
+  animation: slide 30s linear infinite;
+  -webkit-animation: slide 30s linear infinite; /* Vendor prefix for Safari */
+}
+
+/* Slide in from the left animation */
+@-webkit-keyframes slideInFromLeft {
+  0% {
+      -webkit-transform: translateX(-100%);
       transform: translateX(-100%);
       opacity: 0;
-    }
-    100% {
+  }
+  100% {
+      -webkit-transform: translateX(0);
       transform: translateX(0);
       opacity: 1;
-    }
   }
-  
+}
 
-  .typewrite > .wrap {
-    border-right: 0.08em solid #fff;
+@keyframes slideInFromLeft {
+  0% {
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+      opacity: 0;
   }
+  100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+/* Cursor animation for typewrite effect */
+.typewrite > .wrap {
+  border-right: 0.08em solid #fff;
+  -webkit-animation: blink 1s infinite; /* Add blink animation */
+  animation: blink 1s infinite;
+}
+

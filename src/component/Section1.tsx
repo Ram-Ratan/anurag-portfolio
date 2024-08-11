@@ -66,7 +66,7 @@ const Section1 = () => {
           <div>
             <div className="w-40 h-[1px] sm:h-1 bg-secondary"></div>
             <p className="flex gap-2.5 text-primary font-semibold text-3xl sm:text-6xl text-start">
-              <span className="inline-block">I'm A</span>{" "}
+              <span className="inline-block text-nowrap">I'm A</span>{" "}
               {/* {titleText?.split("")?.map((char, i) => (
                 <span
                   key={i + titleText}
