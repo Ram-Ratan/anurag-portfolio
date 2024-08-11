@@ -7,7 +7,7 @@ type Props = {
 
 const Service = ({ text, variant }: Props) => {
   return (
-    <div className="flex items-center p-2 sm:p-4 shrink-0">
+    <div className="flex items-center px-2 py-1 sm:p-4 shrink-0">
       <div className="hidden sm:flex items-center">
         <div
           className={`flex items-center justify-center w-5 h-5 ${
