@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import anuragImage from "../assets/anurag.png";
 import { PopupModal } from "react-calendly";
+import TypewriterEffect from "./TypewriteEffect";
 
 const Section1 = () => {
   const [projectCount, setProjectCount] = useState<number>(0);
@@ -64,18 +65,19 @@ const Section1 = () => {
         <div className="flex flex-col justify-between text-primary w-full md:w-1/2 h-full">
           <div>
             <div className="w-40 h-[1px] sm:h-1 bg-secondary"></div>
-            <p className="text-primary font-semibold text-3xl sm:text-6xl text-start">
-              <span className="inline-block">I'm</span>{" "}
-              {titleText?.split("")?.map((char, i) => (
+            <p className="flex gap-2 text-primary font-semibold text-3xl sm:text-6xl text-start">
+              <span className="inline-block">I'm a</span>{" "}
+              {/* {titleText?.split("")?.map((char, i) => (
                 <span
                   key={i + titleText}
                   className={`inline-block opacity-0 animate-fade-in-${i + 1}`}
                 >
                   {char === " " ? "\u00A0" : char}
                 </span>
-              ))}
+              ))} */}
+              <TypewriterEffect />
             </p>
-            <p className="text-primary font-semibold text-3xl sm:text-6xl text-start">
+            <p className="text-primary typewrite font-semibold text-3xl sm:text-6xl text-start">
               MARKETER
             </p>
             <p className="text-sm sm:text-2xl mt-4 font-normal text-start text-primary-500">

@@ -24,3 +24,7 @@
     }
   }
   
+
+  .typewrite > .wrap {
+    border-right: 0.08em solid #fff;
+  }
