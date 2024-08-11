@@ -37,11 +37,11 @@ const Section1 = () => {
       } else if (titleText === "ROI DRIVEN") {
         setTimeout(() => {
           setTitleText("PERFORMANCE");
-        }, 2000); // Change to "PERFORMANCE" after 1 second
+        }, 4000); // Change to "PERFORMANCE" after 1 second
       } else {
         setTimeout(() => {
           setTitleText("");
-        }, 2000); // Clear the text after "PERFORMANCE"
+        }, 4000); // Clear the text after "PERFORMANCE"
       }
     };
 
