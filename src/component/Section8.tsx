@@ -49,7 +49,7 @@ const Section8 = () => {
             href="#section3"
             className="text-sm sm:text-xl font-semibold text-[#E5EEFF] cursor-pointer"
           >
-            Services
+            My Services
           </a>
           <a
             href="#section4"
@@ -71,7 +71,7 @@ const Section8 = () => {
           </a>
         </div>
         <div className="flex flex-col gap-2 md:gap-5 text-start">
-          <p className="text-primary font-light text-sm sm:text-xl">
+          <p className="text-primary font-semibold text-sm sm:text-xl">
             Book a call with me
           </p>
           <div
@@ -82,7 +82,7 @@ const Section8 = () => {
           </div>
 
           <PopupModal
-            url="https://calendly.com/ramratan72908"
+            url="https://calendly.com/anurag-kanboina"
             // pageSettings={this.props.pageSettings}
             // utm={this.props.utm}
             // prefill={this.props.prefill}

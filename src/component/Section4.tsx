@@ -1,5 +1,9 @@
 import React from "react";
 import timeline1 from "../assets/timeline-1.png";
+import timeline2 from "../assets/timeline-2.png";
+import timeline3 from "../assets/timeline-3.png";
+import timeline4 from "../assets/timeline-4.png";
+
 
 const Section4 = () => {
   return (
@@ -186,7 +190,7 @@ const Section4 = () => {
             }}
           >
             <img
-              src={timeline1}
+              src={timeline2}
               alt="timeline"
               className="rounded-md border-[0.5px] border-[#2E2E2E]"
             />
@@ -220,7 +224,7 @@ const Section4 = () => {
             }}
           >
             <img
-              src={timeline1}
+              src={timeline3}
               alt="timeline"
               className="rounded-md border-[0.5px] border-[#2E2E2E]"
             />
@@ -255,7 +259,7 @@ const Section4 = () => {
             }}
           >
             <img
-              src={timeline1}
+              src={timeline4}
               alt="timeline"
               className="rounded-md border-[0.5px] border-[#2E2E2E]"
             />

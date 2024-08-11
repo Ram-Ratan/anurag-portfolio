@@ -50,7 +50,7 @@ const companyArray: any[] = [
     logoUrl: icon4,
     "Appointments Booked": "2000+",
     "CAC Reduced": "30%",
-    "Treatment Started ": "100+",
+    "Treatments Started ": "100+",
   },
   {
     id: 5,
@@ -100,14 +100,14 @@ const companyArray: any[] = [
     "CAC Reduced": "28%",
     "MQLs Generated": "4400+",
   },
-  {
-    id: 11,
-    name: "Mehfill Indian Cuisize",
-    logoUrl: icon13,
-    "Walk-ins Achieved": "40000+",
-    "Revenue generated": "$3M+",
-    "Increase Online Order Sales": "55%",
-  },
+  // {
+  //   id: 11,
+  //   name: "Mehfill Indian Cuisize",
+  //   logoUrl: icon13,
+  //   "Walk-ins Achieved": "40000+",
+  //   "Revenue generated": "$3M+",
+  //   "Increase Online Order Sales": "55%",
+  // },
   {
     id: 12,
     name: "Artwork Flo",
@@ -140,7 +140,7 @@ const Section5 = () => {
         Get in touch
       </div>
       <PopupModal
-        url="https://calendly.com/ramratan72908"
+        url="https://calendly.com/anurag-kanboina"
         // pageSettings={this.props.pageSettings}
         // utm={this.props.utm}
         // prefill={this.props.prefill}
@@ -175,7 +175,7 @@ const Section5 = () => {
                   }}
                 >
                   <div className="flex flex-col gap-0.5 md:gap-2 text-center">
-                    <p className="text-secondary font-bold text-xs md:text-5xl">
+                    <p className="text-secondary font-bold text-xs md:text-5xl [text-shadow:_0_3px_0_rgb(160_58_255_/_40%)]">
                       {currentCompany?.[key]}
                     </p>
                     <p className="text-primary font-semibold text-[8px] md:text-2xl">
@@ -191,7 +191,7 @@ const Section5 = () => {
             return (
               <div
                 key={ind}
-                className="flex flex-col items-center justify-center cursor-pointer w-24 md:w-40 md:h-40"
+                className="flex flex-col items-center justify-center cursor-pointer w-24 md:w-60 md:h-40"
                 onMouseOver={() => {
                   setCurrentCompany(company);
                 }}
@@ -201,7 +201,7 @@ const Section5 = () => {
                     company.logoUrl.length > 0 ? company.logoUrl : googleIcon
                   }
                   alt="company"
-                  className="w-full md:w-40 md:max-h-40"
+                  className={`w-full ${company.id === 13 || company.id === 10 ? "md:w-40":"md:w-60"} md:max-h-40`}
                   onMouseEnter={()=> setHoveredIcon(company.id)}
                   onMouseLeave={()=> setHoveredIcon(0)}
                 />

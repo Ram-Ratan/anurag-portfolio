@@ -24,7 +24,7 @@ function App() {
         <Section5 />
         <Section6 />
       </div>
-      <div className="bg-primary">
+      <div className="bg-secondary">
         <Section7 />
       </div>
       <div className="bg-primary-0">

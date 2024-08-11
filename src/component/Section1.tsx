@@ -78,9 +78,9 @@ const Section1 = () => {
             <p className="text-primary font-semibold text-3xl sm:text-6xl text-start">
               MARKETER
             </p>
-            <p className="text-sm sm:text-2xl font-normal text-start text-primary-500">
+            <p className="text-sm sm:text-2xl mt-4 font-normal text-start text-primary-500">
               <span className="font-semibold">Transformative Growth</span> for
-              20+ brands with a razor-sharp focus on scale and profitability
+              30+ brands with a razor-sharp focus on scale and profitability
             </p>
             <div
               className="flex w-fit cursor-pointer sm:w-80 h-fit sm:h-16 bg-secondary rounded-full py-2 sm:py-4 px-8 font-semibold text-sm sm:text-3xl justify-center items-center mt-10 transition-transform duration-300 transform hover:scale-110 hover:shadow-secondary hover:shadow-2xl"
@@ -89,7 +89,7 @@ const Section1 = () => {
               Get in touch
             </div>
             <PopupModal
-              url="https://calendly.com/ramratan72908"
+              url="https://calendly.com/anurag-kanboina"
               // pageSettings={this.props.pageSettings}
               // utm={this.props.utm}
               // prefill={this.props.prefill}

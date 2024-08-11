@@ -52,7 +52,7 @@ const Section6 = () => {
                 {[
                   "I highly recommend Anurag for Google Ads expertise. His strategic approach and skilled campaign management consistently yield successful results. Anurag is a valuable asset for any team aiming for excellence in online advertising.",
                   "Anurag has deep understanding in Google Ads. He has been instrumental in delivering quality leads. His approach towards understanding customer requirement and working towards a solution is commendable.",
-                  "Anurag is undoubtedly an expert digital marketer. While at Intent Farm, he did an excellent job to promote our online presence. I wish him all the very best for his future. Keep up the good work, Anurag!",
+                  "Anurag is undoubtedly an expert digital marketer. He did an excellent job to promote our online presence. I wish him all the very best for his future. Keep up the good work, Anurag!",
                 ][index]}
               </p>
               <p className="font-medium text-lg sm:text-5xl text-primary text-end">”</p>
