@@ -154,7 +154,7 @@ const Section5 = () => {
           return (
             <div
               key={ind}
-              className="flex items-center justify-center gap-1 cursor-pointer w-24 md:w-40"
+              className="flex items-center justify-center gap-1 cursor-pointer w-24 md:w-40 md:h-40"
               onMouseOver={() => {
                 setCurrentCompany(company);
               }}
@@ -162,7 +162,7 @@ const Section5 = () => {
               <img
                 src={company.logoUrl.length > 0 ? company.logoUrl : googleIcon}
                 alt="company"
-                className="w-full"
+                className="w-full md:w-40 md:max-h-40"
               />
             </div>
           );

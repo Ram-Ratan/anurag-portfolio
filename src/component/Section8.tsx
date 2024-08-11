@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
+import { PopupButton, PopupModal, PopupWidget } from "react-calendly";
 
 const Section8 = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <section
       id="section8"
@@ -38,10 +41,28 @@ const Section8 = () => {
           <a href="#section6" className="text-sm sm:text-xl font-semibold text-[#E5EEFF] cursor-pointer">Testimonials</a>
         </div>
         <div className="flex flex-col gap-2 md:gap-5 text-start">
-          <p className="text-primary font-light text-sm sm:text-xl">Book a call with me</p>
-          <div className="flex w-fit md:w-72 h-fit sm:h-16 bg-secondary rounded-full py-2 sm:py-4 px-8 font-semibold text-sm sm:text-3xl justify-center items-center text-primary cursor-pointer">
+          <p className="text-primary font-light text-sm sm:text-xl">Book a call with me</p> 
+          <div className="flex w-fit md:w-72 h-fit sm:h-16 bg-secondary rounded-full py-2 sm:py-4 px-8 font-semibold text-sm sm:text-3xl justify-center items-center text-primary cursor-pointer" onClick={()=> setIsOpen(true)}>
             SETUP CALL
           </div>
+          
+          <PopupModal
+          url="https://calendly.com/ramratan72908"
+          // pageSettings={this.props.pageSettings}
+          // utm={this.props.utm}
+          // prefill={this.props.prefill}
+          onModalClose={() => setIsOpen(false)}
+          open={isOpen}
+          /*
+           * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
+           * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
+           */
+          rootElement={document.getElementById("root") as HTMLElement}
+        />
+
+
+
+
         </div>
       </div>
     </section>

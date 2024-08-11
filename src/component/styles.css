@@ -10,7 +10,7 @@
   .animate-slide {
     display: flex;
     /* width: 400%;  */
-    animation: slide 50s linear infinite; /* Increase time to slow down */
+    animation: slide 30s linear infinite; /* Increase time to slow down */
   }
 
   @keyframes slideInFromLeft {

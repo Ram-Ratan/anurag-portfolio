@@ -12,7 +12,7 @@ const Section6 = () => {
     >
       <div className="w-full md:w-[704px] px-4">
         <p className="font-bold text-primary text-2xl sm:text-6xl text-center">
-          Don't Trust me? See it for yourself.
+          Don't Trust me? <span className="text-secondary">See it for yourself.</span>
         </p>
       </div>
       <div className="flex flex-wrap w-full justify-center gap-6">
