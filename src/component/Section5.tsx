@@ -206,7 +206,7 @@ const Section5 = () => {
                   onMouseLeave={()=> setHoveredIcon(0)}
                 />
                 {hoveredIcon === company.id &&  company?.hoverText && (
-                  <p className="text-primary font-bold">Appeared In <span className="text-secondary">Shark Tank India</span></p>
+                  <p className="text-primary font-bold text-[8px] md:text-sm">Appeared In <span className="text-secondary">Shark Tank India</span></p>
                 )}
               </div>
             );

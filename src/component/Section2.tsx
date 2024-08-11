@@ -9,7 +9,7 @@ const Section2 = () => {
 
   useEffect(() => {
     if (videoRef.current) {
-      videoRef.current.playbackRate = 4; // Set playback speed to 2x
+      videoRef.current.playbackRate = 4.2; // Set playback speed to 2x
     }
   }, []);
 
@@ -67,9 +67,7 @@ const Section2 = () => {
               </div>
             </div>
             <div className="flex w-full absolute top-[45%] justify-end h-[40%] sm:h-full">
-              <div className="flex flex-wrap gap-0 justify-end w-2/3" style={{
-                rowGap: '2px'
-              }}>
+              <div className="flex flex-wrap gap-0 justify-end w-3/4">
                 <div className="flex h-fit sm:absolute top-[45%] lg:top-[0px] left-1/4 sm:left-1/3 animate-slide-in-from-left-8">
                   <Service text="Content" variant="secondary" />
                 </div>

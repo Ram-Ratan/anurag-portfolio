@@ -65,7 +65,7 @@ const Section1 = () => {
         <div className="flex flex-col justify-between text-primary w-full md:w-1/2 h-full">
           <div>
             <div className="w-40 h-[1px] sm:h-1 bg-secondary"></div>
-            <p className="flex gap-2 text-primary font-semibold text-3xl sm:text-6xl text-start">
+            <p className="flex gap-2.5 text-primary font-semibold text-3xl sm:text-6xl text-start">
               <span className="inline-block">I'm A</span>{" "}
               {/* {titleText?.split("")?.map((char, i) => (
                 <span
