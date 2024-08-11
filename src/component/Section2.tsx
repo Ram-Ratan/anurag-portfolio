@@ -43,6 +43,8 @@ const Section2 = () => {
           ref={videoRef}
           autoPlay
           muted
+          playsInline
+          preload="auto"
           className="w-full h-auto"
           onEnded={handleVideoEnd}
         >
