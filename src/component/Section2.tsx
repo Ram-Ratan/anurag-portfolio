@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import iceBerg from "../assets/iceberg.mp4";
+import iceBerg from "../assets/Iceberg-1.mp4";
 import Service from "./servicesItem/Service";
 import "./styles.css";
 
