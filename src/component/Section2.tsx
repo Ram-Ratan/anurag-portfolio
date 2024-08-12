@@ -52,23 +52,23 @@ const Section2 = () => {
         </video>
         {showServices && (
           <>
-            <div className="flex w-full absolute top-[10%] sm:top-0 justify-end">
+            <div className="flex w-full absolute top-[0%] sm:top-0 justify-end">
               <div className="flex justify-end">
-                <div className="flex h-fit sm:absolute top-[11%] lg:top-12 left-1/4 sm:left-1/3 animate-slide-in-from-left-1.5">
+                <div className="flex h-fit sm:absolute top-[11%] lg:top-0 left-1/4 sm:left-1/3 animate-slide-in-from-left-1.5">
                   <Service variant="primary" text="Avg CPC" />
                 </div>
-                <div className="flex h-fit sm:absolute top-[19%] lg:top-24 left-1/4 sm:left-1/3 animate-slide-in-from-left-2">
+                <div className="flex h-fit sm:absolute top-[19%] lg:top-12 left-1/4 sm:left-1/3 animate-slide-in-from-left-2">
                   <Service variant="primary" text="CPL" />
                 </div>
-                <div className="flex h-fit sm:absolute top-[27%] lg:top-36 left-1/4 sm:left-1/3 animate-slide-in-from-left-3.5">
+                <div className="flex h-fit sm:absolute top-[27%] lg:top-24 left-1/4 sm:left-1/3 animate-slide-in-from-left-3.5">
                   <Service variant="primary" text="ROAS" />
                 </div>
-                <div className="flex h-fit sm:absolute top-[35%] lg:top-48 left-1/4 sm:left-1/3 animate-slide-in-from-left-6">
+                <div className="flex h-fit sm:absolute top-[35%] lg:top-36 left-1/4 sm:left-1/3 animate-slide-in-from-left-6">
                   <Service variant="primary" text="CTR" />
                 </div>
               </div>
             </div>
-            <div className="flex w-full absolute top-[45%] justify-end h-[40%] sm:h-full">
+            <div className="flex w-full absolute top-[35%] justify-end h-[40%] sm:h-full">
               <div className="flex flex-wrap gap-0 justify-end w-3/4">
                 <div className="flex h-fit sm:absolute top-[45%] lg:top-[0px] left-1/4 sm:left-1/3 animate-slide-in-from-left-8">
                   <Service text="Content" variant="secondary" />
