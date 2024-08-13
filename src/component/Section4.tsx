@@ -4,10 +4,12 @@ import timeline2 from "../assets/timeline-2.png";
 import timeline3 from "../assets/timeline-3.png";
 import timeline4 from "../assets/timeline-4.png";
 
-
 const Section4 = () => {
   return (
-    <section id="section4"  className="flex bg-primary-0 h-fit pt-24 pb-10 md:py-24 w-[90%] mx-auto md:max-w-[1280px] gap-6 justify-start items-center relative">
+    <section
+      id="section4"
+      className="flex bg-primary-0 h-fit pt-24 pb-10 md:py-24 w-[90%] mx-auto md:max-w-[1280px] gap-6 justify-start items-center relative"
+    >
       <div className="pl-4 flex flex-col">
         <div
           className="w-1 sm:w-1.5 md:w-2.5 h-[150px] md:h-[323px] relative"
@@ -120,7 +122,7 @@ const Section4 = () => {
         className="h-full place-items-start pl-3 md:pl-6 absolute top-20 md:top-[60px] left-6 sm:left-10 md:left-40"
         style={{
           // width: "316px",
-          maxWidth: "980px"
+          maxWidth: "980px",
         }}
       >
         <div className="flex flex-col gap-2.5 h-[150px] md:h-[323px] w-full md:w-[531px]">
@@ -175,7 +177,9 @@ const Section4 = () => {
             >
               Day 01
             </p>
-            <p className="font-semibold text-lg md:text-4xl text-primary">Onboarding</p>
+            <p className="font-semibold text-lg md:text-4xl text-primary">
+              Onboarding
+            </p>
             <p className="font-normal text-sm md:text-2xl text-primary-500 max-w-[1000px]">
               We will begin by introducing teams on both sides and explaining
               the onboarding process. Details about the goals, timeline, and
@@ -246,9 +250,11 @@ const Section4 = () => {
               <span className="font-black text-secondary">STRATEGY</span>
             </p>
             <p className="font-normal text-sm md:text-2xl text-primary-500 max-w-[1000px]">
-              We identify your needs and objectives so we can accurately price &
-              scope what is needed to drive the most value, setting our
-              onboarding team for success.
+              Our ongoing strategy involves real-time optimization and
+              data-driven adjustments to maximize ROI, with a focus on monthly
+              reviews to refine tactics and strategies. By analyzing KPIs and
+              adapting based on performance insights, we ensure our campaigns
+              remain effective and agile.
             </p>
           </div>
           <div
