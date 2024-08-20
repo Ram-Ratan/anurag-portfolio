@@ -38,7 +38,7 @@ const Section6 = () => {
                 <div className="flex gap-2 flex-wrap">
                   <p className="text-primary-500 font-normal text-sm md:text-xl text-start">
                     {[
-                      "Co-Founder at Primebook",
+                      "Co-Founder at Primebook | IIT Delhi",
                       "Co-Founder & CFO at Learnyst",
                       "Chief Executive Officer | New Business Development, Marketing Communications",
                     ][index]}

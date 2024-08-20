@@ -74,7 +74,7 @@ const Section2 = () => {
                   <Service text="Content" variant="secondary" />
                 </div>
                 <div className="flex h-fit sm:absolute top-[53%] lg:top-[48px] left-1/4 sm:left-1/3 animate-slide-in-from-left-9">
-                  <Service text="New Profit" variant="secondary" />
+                  <Service text="Net Profit" variant="secondary" />
                 </div>
                 <div className="flex h-fit sm:absolute top-[61%] lg:top-[96px] left-1/4 sm:left-1/3 animate-slide-in-from-left-10">
                   <Service text="AOV" variant="secondary" />
